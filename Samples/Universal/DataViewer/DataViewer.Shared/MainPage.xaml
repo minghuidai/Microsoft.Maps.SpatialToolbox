@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="DataViewer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DataViewer"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.BottomAppBar>
+        <CommandBar>
+            <CommandBar.PrimaryCommands>
+                <AppBarButton Label="Clear Map" Click="ClearMap_Clicked">
+                    <AppBarButton.Icon>
+                        <FontIcon FontFamily="Segoe UI Symbol" Glyph="&#xE107;" />
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton Label="Import Data">
+                    <AppBarButton.Icon>
+                        <FontIcon FontFamily="Segoe UI Symbol" Glyph="&#xE118;" />
+                    </AppBarButton.Icon>
+                    <AppBarButton.Flyout>
+                        <Flyout x:Name="ImportFlyout">
+                            <StackPanel Margin="25">
+                                <Button Content="Well Known Content" Tapped="ImportData_Tapped" Tag="wkt"/>
+                                <Button Content="Shapefile" Tapped="ImportData_Tapped" Tag="shp"/>
+                                <Button Content="GeoRSS" Tapped="ImportData_Tapped" Tag="georss"/>
+                                <Button Content="GPX" Tapped="ImportData_Tapped" Tag="gpx"/>
+                                <Button Content="KML" Tapped="ImportData_Tapped" Tag="kml"/>
+                                <Button Content="GeoJSON" Tapped="ImportData_Tapped" Tag="geojson"/>
+                            </StackPanel>
+                        </Flyout>
+                    </AppBarButton.Flyout>
+                </AppBarButton>
+            </CommandBar.PrimaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid>
+        <local:MapView x:Name="MyMap" Credentials="YOUR_BING_MAPS_KEY" MapServiceToken="YOUR_WP_MAPS_TOKEN"/>
+    </Grid>
+</Page>

@@ -1,0 +1,32 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+
+    <title>SpatialDataViewer</title>
+
+    <!-- Bing Map Control references -->
+    <script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
+
+    <!-- Our Bing Maps JavaScript Code -->
+    <script src="/js/SpatialDataViewer.js"></script>
+
+    <style>
+        /* Bug fix for mouse events on Polylines and Polygons in IE11 */
+        .MicrosoftMapDrawing, .MapPushpinBase {
+            pointer-events: auto !important;
+        }
+    </style>
+</head>
+<body onload="GetMap();">
+    <div id='myMap' style="position:relative;width:100%;height:600px;"></div><br/>
+    <fieldset>
+        <legend>Import Data</legend>
+        <input type="button" value="Europe (WKT)" onclick="ImportData('http://localhost:52339/SampleData/WellKnownText/Europe.txt', 'wkt');"/>
+        <input type="button" value="Milan WIFI Locations (GeoRSS)" onclick="ImportData('http://localhost:52339/SampleData/georss/wifilocations.xml', 'georss');" />
+        <input type="button" value="San Diego Fires (KML)" onclick="ImportData('http://www.bing.com/maps/GeoCommunity.aspx?action=export&format=kml&mkt=en-us&cid=D35222484A76A01!2835', 'kml');" />
+        <input type="button" value="Countries (GeoJSON)" onclick="ImportData('http://localhost:52339/SampleData/geojson/countries.js', 'geojson');" />
+    </fieldset>
+</body>
+</html>

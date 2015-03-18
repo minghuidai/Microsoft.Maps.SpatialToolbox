@@ -1,0 +1,197 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{DF3F122E-4738-48EC-958D-6C74102E7B91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{8E1D64FD-C6C7-4A3A-8764-A8D9F151C698}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleData", "SampleData", "{B84D217F-34D7-42B1-8D9F-8CF8C3667C0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GPX", "GPX", "{30240B1D-A8BA-481B-AB74-F206596F4209}"
+	ProjectSection(SolutionItems) = preProject
+		SampleData\GPX\BikeRoute.gpx = SampleData\GPX\BikeRoute.gpx
+		SampleData\GPX\gps_points.gpx = SampleData\GPX\gps_points.gpx
+		SampleData\GPX\Route66Attractions.xml = SampleData\GPX\Route66Attractions.xml
+		SampleData\GPX\Tourist_locations_UK-England.xml = SampleData\GPX\Tourist_locations_UK-England.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GeoRSS", "GeoRSS", "{6F4D3C78-8FF5-4686-BC6E-4FDEB988CD80}"
+	ProjectSection(SolutionItems) = preProject
+		SampleData\GeoRSS\Countries.xml = SampleData\GeoRSS\Countries.xml
+		SampleData\GeoRSS\SampleGeoRSS.xml = SampleData\GeoRSS\SampleGeoRSS.xml
+		SampleData\GeoRSS\WifiLocations.xml = SampleData\GeoRSS\WifiLocations.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GeoJson", "GeoJson", "{2E651965-C8EE-4D58-AEA2-79A96AA4BD01}"
+	ProjectSection(SolutionItems) = preProject
+		SampleData\GeoJSON\Canada.js = SampleData\GeoJSON\Canada.js
+		SampleData\GeoJSON\Countries.js = SampleData\GeoJSON\Countries.js
+		SampleData\GeoJSON\SouthAfrica.js = SampleData\GeoJSON\SouthAfrica.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shapefile", "Shapefile", "{9EC7E2D9-BFF4-47F9-95BB-C3BC4C951DEE}"
+	ProjectSection(SolutionItems) = preProject
+		SampleData\ShapeFile\cities.dbf = SampleData\ShapeFile\cities.dbf
+		SampleData\ShapeFile\cities.shp = SampleData\ShapeFile\cities.shp
+		SampleData\ShapeFile\US_Interstates.dbf = SampleData\ShapeFile\US_Interstates.dbf
+		SampleData\ShapeFile\US_Interstates.prj = SampleData\ShapeFile\US_Interstates.prj
+		SampleData\ShapeFile\US_Interstates.shp = SampleData\ShapeFile\US_Interstates.shp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kml", "Kml", "{A7D226FB-A4EF-462B-BDC5-145AB4B29AE8}"
+	ProjectSection(SolutionItems) = preProject
+		SampleData\Kml\2007SanDiegoCountyFires.kml = SampleData\Kml\2007SanDiegoCountyFires.kml
+		SampleData\Kml\Countries.kml = SampleData\Kml\Countries.kml
+		SampleData\Kml\esfr-trip-track-20080407.kml = SampleData\Kml\esfr-trip-track-20080407.kml
+		SampleData\Kml\internet_users_2005_choropleth.kml = SampleData\Kml\internet_users_2005_choropleth.kml
+		SampleData\Kml\PhotoPins.kml = SampleData\Kml\PhotoPins.kml
+		SampleData\Kml\WiFi Locations.kml = SampleData\Kml\WiFi Locations.kml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WellKnownText", "WellKnownText", "{8D7B3E59-68FA-4A96-BF27-6C0E21B7E41C}"
+	ProjectSection(SolutionItems) = preProject
+		SampleData\WellKnownText\Europe.txt = SampleData\WellKnownText\Europe.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kmz", "Kmz", "{D3F5DEB7-2822-4AC3-852B-E968A8BACCD2}"
+	ProjectSection(SolutionItems) = preProject
+		SampleData\Kml\Kmz\RecreationSitePoint.kmz = SampleData\Kml\Kmz\RecreationSitePoint.kmz
+		SampleData\Kml\Kmz\shuckstack-fire-tower.kmz = SampleData\Kml\Kmz\shuckstack-fire-tower.kmz
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{50F2D825-8D07-4B65-B87C-C87BD0D51F40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{8D86179C-5D8B-40B7-A0EF-78534FFB5C64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpatialDataViewer", "Samples\Web\SpatialDataViewer\SpatialDataViewer.csproj", "{C4833301-F81A-46CC-9A13-D1A23E6AE9AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{1C2ACE20-9412-4BDE-BAE2-F873A92BDF04}"
+	ProjectSection(SolutionItems) = preProject
+		Libaries\Microsoft.Maps.MapControl.WPF.dll = Libaries\Microsoft.Maps.MapControl.WPF.dll
+		Libaries\Microsoft.Maps.MapControl.WPF.xml = Libaries\Microsoft.Maps.MapControl.WPF.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpatialDataViewer", "Samples\WPF\SpatialDataViewer\SpatialDataViewer.csproj", "{106417B6-1458-439B-A693-FBAB87103AF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Maps.SpatialToolbox.WPF", "Source\Microsoft.Maps.SpatialToolbox.WPF\Microsoft.Maps.SpatialToolbox.WPF.csproj", "{F08713BF-ADA1-4855-9DD9-C5FBDDA9BD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeatMapTestApp", "Samples\WPF\HeatMapTestApp\HeatMapTestApp.csproj", "{C32944F4-D8BD-4C78-A6BF-B4F2B6CD3362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusteringSample", "Samples\WPF\ClusteringSample\ClusteringSample.csproj", "{42039266-A522-4729-A5B4-F3718A4FFA7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationSample", "Samples\WPF\AnimationSample\AnimationSample.csproj", "{1E919C24-272B-4A1E-9B3F-71A10D3B96DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Maps.SpatialToolbox.Core", "Source\Microsoft.Maps.SpatialToolbox.Core\Microsoft.Maps.SpatialToolbox.Core.csproj", "{259D7BFC-2FAD-471A-9B20-0A9736AD2391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4833301-F81A-46CC-9A13-D1A23E6AE9AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4833301-F81A-46CC-9A13-D1A23E6AE9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4833301-F81A-46CC-9A13-D1A23E6AE9AF}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{C4833301-F81A-46CC-9A13-D1A23E6AE9AF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C4833301-F81A-46CC-9A13-D1A23E6AE9AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C4833301-F81A-46CC-9A13-D1A23E6AE9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4833301-F81A-46CC-9A13-D1A23E6AE9AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4833301-F81A-46CC-9A13-D1A23E6AE9AF}.Release|ARM.ActiveCfg = Release|Any CPU
+		{C4833301-F81A-46CC-9A13-D1A23E6AE9AF}.Release|x64.ActiveCfg = Release|Any CPU
+		{C4833301-F81A-46CC-9A13-D1A23E6AE9AF}.Release|x86.ActiveCfg = Release|Any CPU
+		{106417B6-1458-439B-A693-FBAB87103AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106417B6-1458-439B-A693-FBAB87103AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106417B6-1458-439B-A693-FBAB87103AF7}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{106417B6-1458-439B-A693-FBAB87103AF7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{106417B6-1458-439B-A693-FBAB87103AF7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{106417B6-1458-439B-A693-FBAB87103AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106417B6-1458-439B-A693-FBAB87103AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106417B6-1458-439B-A693-FBAB87103AF7}.Release|ARM.ActiveCfg = Release|Any CPU
+		{106417B6-1458-439B-A693-FBAB87103AF7}.Release|x64.ActiveCfg = Release|Any CPU
+		{106417B6-1458-439B-A693-FBAB87103AF7}.Release|x86.ActiveCfg = Release|Any CPU
+		{F08713BF-ADA1-4855-9DD9-C5FBDDA9BD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08713BF-ADA1-4855-9DD9-C5FBDDA9BD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F08713BF-ADA1-4855-9DD9-C5FBDDA9BD69}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F08713BF-ADA1-4855-9DD9-C5FBDDA9BD69}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F08713BF-ADA1-4855-9DD9-C5FBDDA9BD69}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F08713BF-ADA1-4855-9DD9-C5FBDDA9BD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F08713BF-ADA1-4855-9DD9-C5FBDDA9BD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F08713BF-ADA1-4855-9DD9-C5FBDDA9BD69}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F08713BF-ADA1-4855-9DD9-C5FBDDA9BD69}.Release|x64.ActiveCfg = Release|Any CPU
+		{F08713BF-ADA1-4855-9DD9-C5FBDDA9BD69}.Release|x86.ActiveCfg = Release|Any CPU
+		{C32944F4-D8BD-4C78-A6BF-B4F2B6CD3362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32944F4-D8BD-4C78-A6BF-B4F2B6CD3362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32944F4-D8BD-4C78-A6BF-B4F2B6CD3362}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{C32944F4-D8BD-4C78-A6BF-B4F2B6CD3362}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C32944F4-D8BD-4C78-A6BF-B4F2B6CD3362}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C32944F4-D8BD-4C78-A6BF-B4F2B6CD3362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32944F4-D8BD-4C78-A6BF-B4F2B6CD3362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32944F4-D8BD-4C78-A6BF-B4F2B6CD3362}.Release|ARM.ActiveCfg = Release|Any CPU
+		{C32944F4-D8BD-4C78-A6BF-B4F2B6CD3362}.Release|x64.ActiveCfg = Release|Any CPU
+		{C32944F4-D8BD-4C78-A6BF-B4F2B6CD3362}.Release|x86.ActiveCfg = Release|Any CPU
+		{42039266-A522-4729-A5B4-F3718A4FFA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42039266-A522-4729-A5B4-F3718A4FFA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42039266-A522-4729-A5B4-F3718A4FFA7C}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{42039266-A522-4729-A5B4-F3718A4FFA7C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{42039266-A522-4729-A5B4-F3718A4FFA7C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{42039266-A522-4729-A5B4-F3718A4FFA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42039266-A522-4729-A5B4-F3718A4FFA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42039266-A522-4729-A5B4-F3718A4FFA7C}.Release|ARM.ActiveCfg = Release|Any CPU
+		{42039266-A522-4729-A5B4-F3718A4FFA7C}.Release|x64.ActiveCfg = Release|Any CPU
+		{42039266-A522-4729-A5B4-F3718A4FFA7C}.Release|x86.ActiveCfg = Release|Any CPU
+		{1E919C24-272B-4A1E-9B3F-71A10D3B96DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E919C24-272B-4A1E-9B3F-71A10D3B96DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E919C24-272B-4A1E-9B3F-71A10D3B96DB}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{1E919C24-272B-4A1E-9B3F-71A10D3B96DB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1E919C24-272B-4A1E-9B3F-71A10D3B96DB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1E919C24-272B-4A1E-9B3F-71A10D3B96DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E919C24-272B-4A1E-9B3F-71A10D3B96DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E919C24-272B-4A1E-9B3F-71A10D3B96DB}.Release|ARM.ActiveCfg = Release|Any CPU
+		{1E919C24-272B-4A1E-9B3F-71A10D3B96DB}.Release|x64.ActiveCfg = Release|Any CPU
+		{1E919C24-272B-4A1E-9B3F-71A10D3B96DB}.Release|x86.ActiveCfg = Release|Any CPU
+		{259D7BFC-2FAD-471A-9B20-0A9736AD2391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{259D7BFC-2FAD-471A-9B20-0A9736AD2391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{259D7BFC-2FAD-471A-9B20-0A9736AD2391}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{259D7BFC-2FAD-471A-9B20-0A9736AD2391}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{259D7BFC-2FAD-471A-9B20-0A9736AD2391}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{259D7BFC-2FAD-471A-9B20-0A9736AD2391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{259D7BFC-2FAD-471A-9B20-0A9736AD2391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{259D7BFC-2FAD-471A-9B20-0A9736AD2391}.Release|ARM.ActiveCfg = Release|Any CPU
+		{259D7BFC-2FAD-471A-9B20-0A9736AD2391}.Release|x64.ActiveCfg = Release|Any CPU
+		{259D7BFC-2FAD-471A-9B20-0A9736AD2391}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F08713BF-ADA1-4855-9DD9-C5FBDDA9BD69} = {DF3F122E-4738-48EC-958D-6C74102E7B91}
+		{259D7BFC-2FAD-471A-9B20-0A9736AD2391} = {DF3F122E-4738-48EC-958D-6C74102E7B91}
+		{50F2D825-8D07-4B65-B87C-C87BD0D51F40} = {8E1D64FD-C6C7-4A3A-8764-A8D9F151C698}
+		{8D86179C-5D8B-40B7-A0EF-78534FFB5C64} = {8E1D64FD-C6C7-4A3A-8764-A8D9F151C698}
+		{30240B1D-A8BA-481B-AB74-F206596F4209} = {B84D217F-34D7-42B1-8D9F-8CF8C3667C0A}
+		{6F4D3C78-8FF5-4686-BC6E-4FDEB988CD80} = {B84D217F-34D7-42B1-8D9F-8CF8C3667C0A}
+		{2E651965-C8EE-4D58-AEA2-79A96AA4BD01} = {B84D217F-34D7-42B1-8D9F-8CF8C3667C0A}
+		{9EC7E2D9-BFF4-47F9-95BB-C3BC4C951DEE} = {B84D217F-34D7-42B1-8D9F-8CF8C3667C0A}
+		{A7D226FB-A4EF-462B-BDC5-145AB4B29AE8} = {B84D217F-34D7-42B1-8D9F-8CF8C3667C0A}
+		{8D7B3E59-68FA-4A96-BF27-6C0E21B7E41C} = {B84D217F-34D7-42B1-8D9F-8CF8C3667C0A}
+		{D3F5DEB7-2822-4AC3-852B-E968A8BACCD2} = {A7D226FB-A4EF-462B-BDC5-145AB4B29AE8}
+		{C4833301-F81A-46CC-9A13-D1A23E6AE9AF} = {50F2D825-8D07-4B65-B87C-C87BD0D51F40}
+		{106417B6-1458-439B-A693-FBAB87103AF7} = {8D86179C-5D8B-40B7-A0EF-78534FFB5C64}
+		{C32944F4-D8BD-4C78-A6BF-B4F2B6CD3362} = {8D86179C-5D8B-40B7-A0EF-78534FFB5C64}
+		{42039266-A522-4729-A5B4-F3718A4FFA7C} = {8D86179C-5D8B-40B7-A0EF-78534FFB5C64}
+		{1E919C24-272B-4A1E-9B3F-71A10D3B96DB} = {8D86179C-5D8B-40B7-A0EF-78534FFB5C64}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Samples\Universal\DataViewer\DataViewer.Shared\DataViewer.Shared.projitems*{7bde7cb5-66eb-4a42-81ec-3d1555ab74e0}*SharedItemsImports = 4
+		Samples\Universal\DataViewer\DataViewer.Shared\DataViewer.Shared.projitems*{16944332-8988-4587-b0ba-d832452d2521}*SharedItemsImports = 13
+		Samples\Universal\DataViewer\DataViewer.Shared\DataViewer.Shared.projitems*{8cab6421-d1fa-48e7-abcd-34d199ca8088}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal

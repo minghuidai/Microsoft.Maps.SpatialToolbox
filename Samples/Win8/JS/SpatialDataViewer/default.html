@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>SpatialDataViewer</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- SpatialDataViewer references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+
+    <!-- Bing Map Control references -->
+    <script type="text/javascript" src="ms-appx:///Bing.Maps.JavaScript//js/veapicore.js"></script>
+    <script type="text/javascript" src="ms-appx:///Bing.Maps.JavaScript//js/veapiModules.js"></script>
+
+    <!-- Load the WKT Module -->
+    <script>Microsoft.Maps.registerModule('WKTModule');</script>
+    <script type="text/javascript" src="/js/WKTModule.js"></script>
+
+    <!-- Load the Canvas Pushpin Module -->
+    <script>Microsoft.Maps.registerModule('CanvasPushpinModule');</script>
+    <script type="text/javascript" src="/js/CanvasPushpinModule.js"></script>
+
+    <!-- Load the Spatial Toolbox Module -->
+    <script>Microsoft.Maps.registerModule('SpatialToolboxModule');</script>
+    <script type="text/javascript" src="/js/SpatialToolboxModule.js"></script>
+
+    <!-- Our Bing Maps JavaScript Code -->
+    <script src="/js/SpatialDataViewer.js"></script>
+
+    <style>
+        /* Bug fix for mouse events on Polylines and Polygons in IE11 */
+        .MicrosoftMapDrawing, .MapPushpinBase {
+            pointer-events: auto !important;
+        }
+    </style>
+</head>
+<body>
+    <div id='MyMap'></div>
+
+    <!-- APPBAR -->
+    <div id="appbar" data-win-control="WinJS.UI.AppBar" 
+        data-win-options="{layout:'custom',placement:'bottom'}">
+        <button data-win-control="WinJS.UI.AppBarCommand"
+                data-win-options="{id:'importBtn', label:'Import Data',
+            icon:'&#xE118;', section:'global', type:'flyout',
+            flyout:'importFlyout'}"></button>
+    </div>
+
+    <!-- APPBAR FLYOUT -->
+    <div id="importFlyout" data-win-control="WinJS.UI.Menu">
+        <button data-win-control="WinJS.UI.MenuCommand" 
+            data-win-options="{id:'WKTBtn',label:'Well Known Text'}"></button>
+        <button data-win-control="WinJS.UI.MenuCommand" 
+            data-win-options="{id:'ShapefileBtn',label:'Shapefile'}"></button>
+        <button data-win-control="WinJS.UI.MenuCommand" 
+            data-win-options="{id:'GeoRSSBtn',label:'GeoRSS'}"></button>
+        <button data-win-control="WinJS.UI.MenuCommand" 
+            data-win-options="{id:'GpxBtn',label:'GPX'}"></button>
+        <button data-win-control="WinJS.UI.MenuCommand" 
+            data-win-options="{id:'KmlBtn',label:'KML'}"></button>
+        <button data-win-control="WinJS.UI.MenuCommand" 
+            data-win-options="{id:'GeoJSONBtn',label:'GeoJSON'}"></button>
+    </div>
+</body>
+</html>

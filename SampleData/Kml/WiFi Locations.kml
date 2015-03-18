@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>OpenWifiMilano - Zona 1</name>
+    <description>Le bandierine verdi indicano siti già attivi. Le bandierine gialle indicano siti che saranno attivati nei prossimi giorni. A sito attivato, la bandierina diventerà verde.</description>
+    <Style id="S1">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.gstatic.com/mapfiles/ms2/micons/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S2">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.gstatic.com/mapfiles/ms2/micons/grn-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S3">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.gstatic.com/mapfiles/ms2/micons/grn-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S4">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.gstatic.com/mapfiles/ms2/micons/grn-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S5">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.gstatic.com/mapfiles/ms2/micons/grn-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S6">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S7">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S8">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S9">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S10">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.gstatic.com/mapfiles/ms2/micons/grn-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S11">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S12">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S13">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S14">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S15">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S16">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S17">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S18">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.gstatic.com/mapfiles/ms2/micons/grn-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S19">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S20">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S21">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S22">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S23">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.gstatic.com/mapfiles/ms2/micons/grn-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S24">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S25">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S26">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S27">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S28">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S29">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S30">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S31">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S32">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S33">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S34">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S35">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S36">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S37">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S38">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S39">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S40">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S41">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S42">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S43">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S44">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.gstatic.com/mapfiles/ms2/micons/grn-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S45">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S46">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S47">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S48">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S49">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.gstatic.com/mapfiles/ms2/micons/ylw-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S50">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S51">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S52">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S53">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="S54">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Arco Della Pace</name>
+      <description />
+      <styleUrl>#S1</styleUrl>
+      <Point>
+        <coordinates>9.17246,45.47567</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bastioni di Porta Nuova 23</name>
+      <description />
+      <styleUrl>#S2</styleUrl>
+      <Point>
+        <coordinates>9.192273,45.478577</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Corso di Porta Romana 116</name>
+      <description />
+      <styleUrl>#S3</styleUrl>
+      <Point>
+        <coordinates>9.199076,45.454094</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Corso Vittorio Emanuele</name>
+      <description />
+      <styleUrl>#S4</styleUrl>
+      <Point>
+        <coordinates>9.195012,45.465225</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Galleria Ciro Fontana 1</name>
+      <description />
+      <styleUrl>#S5</styleUrl>
+      <Point>
+        <coordinates>9.191297,45.465649</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Galleria Vittorio Emanuele</name>
+      <description />
+      <styleUrl>#S6</styleUrl>
+      <Point>
+        <coordinates>9.189885,45.465611</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Largo Cairoli</name>
+      <description />
+      <styleUrl>#S7</styleUrl>
+      <Point>
+        <coordinates>9.182257,45.468193</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Largo Treves 1</name>
+      <description />
+      <styleUrl>#S8</styleUrl>
+      <Point>
+        <coordinates>9.186616,45.475246</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piazza dei Mercanti</name>
+      <description />
+      <styleUrl>#S9</styleUrl>
+      <Point>
+        <coordinates>9.187529,45.464649</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piazza Beccaria / Piazza Fontana</name>
+      <description />
+      <styleUrl>#S10</styleUrl>
+      <Point>
+        <coordinates>9.195464,45.464336</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piazza Cadorna</name>
+      <description />
+      <styleUrl>#S11</styleUrl>
+      <Point>
+        <coordinates>9.176668,45.468189</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piazza Castello</name>
+      <description />
+      <styleUrl>#S12</styleUrl>
+      <Point>
+        <coordinates>9.180421,45.469639</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piazza Cordusio</name>
+      <description />
+      <styleUrl>#S13</styleUrl>
+      <Point>
+        <coordinates>9.186339,45.465469</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piazza della Scala</name>
+      <description />
+      <styleUrl>#S14</styleUrl>
+      <Point>
+        <coordinates>9.19019,45.466858</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piazza Diaz</name>
+      <description />
+      <styleUrl>#S15</styleUrl>
+      <Point>
+        <coordinates>9.189883,45.462395</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piazza Duomo  lato Via Mercanti</name>
+      <description />
+      <styleUrl>#S16</styleUrl>
+      <Point>
+        <coordinates>9.188759,45.464611</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piazza Duomo  lato Via Orefici</name>
+      <description />
+      <styleUrl>#S17</styleUrl>
+      <Point>
+        <coordinates>9.188766,45.463734</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piazza Duomo / Arcivescovado</name>
+      <description />
+      <styleUrl>#S18</styleUrl>
+      <Point>
+        <coordinates>9.192475,45.463795</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piazza Duomo / Corso Vittorio Emanuele</name>
+      <description />
+      <styleUrl>#S19</styleUrl>
+      <Point>
+        <coordinates>9.192497,45.464619</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piazza Duomo / Palazzo Reale</name>
+      <description />
+      <styleUrl>#S20</styleUrl>
+      <Point>
+        <coordinates>9.190681,45.463589</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piazza Duomo / Via San Raffaele</name>
+      <description />
+      <styleUrl>#S21</styleUrl>
+      <Point>
+        <coordinates>9.191294,45.464737</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piazza Duomo 10-14 (palazzo Reale)</name>
+      <description />
+      <styleUrl>#S22</styleUrl>
+      <Point>
+        <coordinates>9.190866,45.463341</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piazza Liberty</name>
+      <description />
+      <styleUrl>#S23</styleUrl>
+      <Point>
+        <coordinates>9.194101,45.465511</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piazza San Babila</name>
+      <description />
+      <styleUrl>#S24</styleUrl>
+      <Point>
+        <coordinates>9.197407,45.466415</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Azario 3</name>
+      <description />
+      <styleUrl>#S25</styleUrl>
+      <Point>
+        <coordinates>9.168458,45.459957</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Bergamini 5</name>
+      <description />
+      <styleUrl>#S26</styleUrl>
+      <Point>
+        <coordinates>9.19399,45.461983</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Bernardino Luini 2</name>
+      <description />
+      <styleUrl>#S27</styleUrl>
+      <Point>
+        <coordinates>9.179108,45.465687</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Borgonuovo 23</name>
+      <description />
+      <styleUrl>#S28</styleUrl>
+      <Point>
+        <coordinates>9.189949,45.472221</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Dante</name>
+      <description />
+      <styleUrl>#S29</styleUrl>
+      <Point>
+        <coordinates>9.18416,45.466892</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via De Amicis 17</name>
+      <description />
+      <styleUrl>#S30</styleUrl>
+      <Point>
+        <coordinates>9.179462,45.457973</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Dei Fabbri 9</name>
+      <description />
+      <styleUrl>#S31</styleUrl>
+      <Point>
+        <coordinates>9.180139,45.458008</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Francesco Sforza 28</name>
+      <description />
+      <styleUrl>#S32</styleUrl>
+      <Point>
+        <coordinates>9.195374,45.459454</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Giusti Giuseppe 42</name>
+      <description />
+      <styleUrl>#S33</styleUrl>
+      <Point>
+        <coordinates>9.173348,45.479752</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Larga 12</name>
+      <description />
+      <styleUrl>#S34</styleUrl>
+      <Point>
+        <coordinates>9.192191,45.461529</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Manin 2/a</name>
+      <description />
+      <styleUrl>#S35</styleUrl>
+      <Point>
+        <coordinates>9.196533,45.474579</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Marsala 8</name>
+      <description />
+      <styleUrl>#S36</styleUrl>
+      <Point>
+        <coordinates>9.187,45.478886</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Mercanti</name>
+      <description />
+      <styleUrl>#S37</styleUrl>
+      <Point>
+        <coordinates>9.187702,45.465027</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Orefici</name>
+      <description />
+      <styleUrl>#S38</styleUrl>
+      <Point>
+        <coordinates>9.18786,45.464035</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Palestro 12</name>
+      <description />
+      <styleUrl>#S39</styleUrl>
+      <Point>
+        <coordinates>9.198595,45.473038</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Palestro 14/16</name>
+      <description />
+      <styleUrl>#S40</styleUrl>
+      <Point>
+        <coordinates>9.200148,45.472843</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Rovello 2</name>
+      <description />
+      <styleUrl>#S41</styleUrl>
+      <Point>
+        <coordinates>9.18468,45.466408</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via San Marco 45</name>
+      <description />
+      <styleUrl>#S42</styleUrl>
+      <Point>
+        <coordinates>9.189575,45.479378</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Sant'Andrea 6</name>
+      <description />
+      <styleUrl>#S43</styleUrl>
+      <Point>
+        <coordinates>9.196391,45.46875</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Scaldasole 3/A</name>
+      <description />
+      <styleUrl>#S44</styleUrl>
+      <Point>
+        <coordinates>9.1796,45.454311</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Silvio Pellico 8</name>
+      <description />
+      <styleUrl>#S45</styleUrl>
+      <Point>
+        <coordinates>9.189259,45.465637</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Statuto 17</name>
+      <description />
+      <styleUrl>#S46</styleUrl>
+      <Point>
+        <coordinates>9.185398,45.476654</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Strehler 2</name>
+      <description />
+      <styleUrl>#S47</styleUrl>
+      <Point>
+        <coordinates>9.183072,45.47287</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Via Vico 18</name>
+      <description />
+      <styleUrl>#S48</styleUrl>
+      <Point>
+        <coordinates>9.169362,45.461346</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Viale Alemagna 14</name>
+      <description />
+      <styleUrl>#S49</styleUrl>
+      <Point>
+        <coordinates>9.173374,45.472115</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Viale Gabriele D'Annunzio 15</name>
+      <description />
+      <styleUrl>#S50</styleUrl>
+      <Point>
+        <coordinates>9.176752,45.453388</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Viale Gadio 2</name>
+      <description />
+      <styleUrl>#S51</styleUrl>
+      <Point>
+        <coordinates>9.180992,45.473709</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Viale Giorgio Byron 2</name>
+      <description />
+      <styleUrl>#S52</styleUrl>
+      <Point>
+        <coordinates>9.178288,45.475384</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Viale Miguel de Cervantes 1</name>
+      <description />
+      <styleUrl>#S53</styleUrl>
+      <Point>
+        <coordinates>9.175246,45.475456</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Viale regina Margherita - Rotonda Besana</name>
+      <description />
+      <styleUrl>#S54</styleUrl>
+      <Point>
+        <coordinates>9.205361,45.459873</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

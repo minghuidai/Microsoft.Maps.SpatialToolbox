@@ -1,0 +1,63 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="SpatialDataViewer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:m="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True">
+            <shell:ApplicationBarIconButton Text="Clear Map" IconUri="Assets/delete.png" Click="ClearMap_Clicked"/>
+            <shell:ApplicationBarIconButton Text="Import Data" IconUri="Assets/download.png" Click="ImportBtn_Clicked"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+    
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <m:Map Name="MyMap"/>  
+        
+        <Grid Name="ImportPanel" Visibility="Collapsed" Background="Black" Opacity="0.8">
+            <StackPanel Margin="25">
+                <Button Content="Well Known Content" Click="ImportData_Clicked" Tag="wkt"/>
+                <Button Content="Shapefile" Click="ImportData_Clicked" Tag="shp"/>
+                <Button Content="GeoRSS" Click="ImportData_Clicked" Tag="georss"/>
+                <Button Content="GPX" Click="ImportData_Clicked" Tag="gpx"/>
+                <Button Content="KML" Click="ImportData_Clicked" Tag="kml"/>
+                <Button Content="GeoJSON" Click="ImportData_Clicked" Tag="geojson"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Name="MetadataPanel" Visibility="Collapsed" Background="Black" Opacity="0.8">
+            <Button Content="X" Click="CloseMetadataPanel_Clicked" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+            
+            <StackPanel Margin="25">
+                <TextBlock Text="Metadata" FontSize="24"/>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="ID: "/>
+                    <TextBlock Text="{Binding ID}"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Title: "/>
+                    <TextBlock Text="{Binding Title}"/>
+                </StackPanel>
+
+                <TextBlock Text="Description: "/>
+                <phone:WebBrowser Name="DescriptionBox" IsHitTestVisible="False"
+                                  UseOptimizedManipulationRouting="True" 
+                                  IsScriptEnabled="True" Height="200"/>
+
+                <TextBlock Text="Properties:" FontSize="18" Margin="0,10"/>
+                <TextBox Name="MetadataTbx" HorizontalAlignment="Stretch" Height="200"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</phone:PhoneApplicationPage>

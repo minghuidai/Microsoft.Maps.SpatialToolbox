@@ -1,0 +1,68 @@
+﻿<Page
+    x:Class="SpatialDataViewer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SpatialDataViewer"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:m="using:Windows.UI.Xaml.Controls.Maps"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.BottomAppBar>
+        <CommandBar>
+            <CommandBar.PrimaryCommands>
+                <AppBarButton Label="Clear Map" Click="ClearMap_Clicked">
+                    <AppBarButton.Icon>
+                        <BitmapIcon UriSource="Assets/delete.png"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton Label="Import Data">
+                    <AppBarButton.Icon>
+                        <BitmapIcon UriSource="Assets/download.png"/>
+                    </AppBarButton.Icon>
+                    <AppBarButton.Flyout>
+                        <Flyout x:Name="ImportFlyout">
+                            <StackPanel Margin="25">
+                                <Button Content="Well Known Content" Click="ImportData_Clicked" Tag="wkt"/>
+                                <Button Content="Shapefile" Click="ImportData_Clicked" Tag="shp"/>
+                                <Button Content="GeoRSS" Click="ImportData_Clicked" Tag="georss"/>
+                                <Button Content="GPX" Click="ImportData_Clicked" Tag="gpx"/>
+                                <Button Content="KML" Click="ImportData_Clicked" Tag="kml"/>
+                                <Button Content="GeoJSON" Click="ImportData_Clicked" Tag="geojson"/>
+                            </StackPanel>
+                        </Flyout>
+                    </AppBarButton.Flyout>
+                </AppBarButton>
+            </CommandBar.PrimaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid>
+        <m:MapControl Name="MyMap"/>
+
+        <Grid Name="MetadataPanel" Visibility="Collapsed" Background="Black" Opacity="0.8">
+            <Button Content="X" Click="CloseMetadataPanel_Clicked" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+
+            <StackPanel Margin="25">
+                <TextBlock Text="Metadata" FontSize="24"/>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="ID: "/>
+                    <TextBlock Text="{Binding ID}"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Title: "/>
+                    <TextBlock Text="{Binding Title}"/>
+                </StackPanel>
+
+                <TextBlock Text="Description: "/>
+                <WebView Name="DescriptionBox" IsHitTestVisible="False" Height="200"/>
+
+                <TextBlock Text="Properties:" FontSize="18" Margin="0,10"/>
+                <TextBox Name="MetadataTbx" HorizontalAlignment="Stretch" Height="200"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
