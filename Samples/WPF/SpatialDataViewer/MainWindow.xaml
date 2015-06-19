@@ -61,7 +61,7 @@
             </MenuItem>
         </Menu>
 
-        <m:Map Name="MyMap"  Grid.Row="1" CredentialsProvider="YOUR_BING_MAPS_KEY">
+        <m:Map Name="MyMap"  Grid.Row="1" CredentialsProvider="Ai6zQ5AwxFAZKY3DtRmKAPJHZVlK4h_e01jNbblWGbagsXzwH0nf5vYrTEr13kBd">
             <m:Map.ContextMenu>
                 <ContextMenu>
                     <ContextMenu.ItemsSource>
